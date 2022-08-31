@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+
+</head>
+<body>
+      <form action="">
+        <!-- el for del label nos indica que contendra el input  -->
+        <label for="nombre">
+            <span>Cual es tu nombre?</span>
+            <!-- hay diferentes tipos de input - depende la informacion que queramos recolectar -->
+            <!-- el id tiene que ser el mismo que se coloque en el for del label  -->
+            <input type="text" id="nombre" placeholder="Coloque aquí su nombre">
+        </label>
+        <label for="inicio-platzi">
+            <span>Que dia comenzaste en Platzi?</span>
+            <!-- date es para marcar fechas -->
+            <input type="date" id="inicio-platzi" >
+        </label>
+        <label for="horario">
+            <span>En que horario estudias?</span>
+            <!-- time es para marcar horarios -->
+            <input type="time" id="horario" >
+        </label>
+    </form>
+</body>
+</html>
