@@ -1,0 +1,55 @@
+/* dektop */
+
+@media (min-width:800px) {
+    .main{
+     width: 800px;
+     flex-direction: row;
+     justify-content: center;
+     /* height: 600px; */
+    }
+ 
+    .main__header-titulo{
+     width: 45%;
+     /* height: 250px; */
+    }
+ 
+    .content{
+     width: 45%;
+     /* height: 250px; */
+     padding: 2rem 0rem;
+     margin: 1rem;
+    }
+ 
+    .main__descripcion{
+     font-size: 2rem;
+     padding-top: 2rem;
+    }
+ 
+    .main__descripcion h3{
+     padding-top: 5rem;
+     font-size: 3rem;
+     -webkit-text-stroke: 1px black;
+    }
+ 
+    .main__titulo{
+     font-size: 3rem;
+     /* aplicamos borde al titulo  */
+     -webkit-text-stroke: 1px red;
+    }
+ 
+    .content__soluciones{
+     padding-top: 2rem;
+    }
+ 
+    .content__soluciones p{
+         font-size: 2rem;
+    }
+ 
+    .content__fibra h1{
+     font-size: 3rem;
+    }
+ 
+    .content__fibra--img img{
+     width: 35rem;
+    }
+ }

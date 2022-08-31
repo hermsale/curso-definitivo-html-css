@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.container{
+    display: flex;
+    /* nuestro contenido (los div) se reposicionaran en caso de que su tamaño se los permita cuando vaya creyendo el viewport */
+    flex-wrap: wrap;
+}
+
+.c1, .c2, .c3, .c4, .c5{
+    width: 100%;
+    min-width: 150px;
+    height: 150px;
+}
+
+.c1{
+    background-color: rgb(60, 164, 254);
+}
+
+.c2{
+    background-color: antiquewhite;
+}
+
+.c3{
+    background-color: aqua;
+}
+
+.c4{
+    background-color:aquamarine;
+}
+
+.c5{
+    background-color:rgb(42, 245, 73);
+}
+
+.c4{
+    /*
+    le indicamos que crezca con relacion al contenido 
+    si no aplicamos esta regla, el contenedor c3 no se visualizara, al tener el mismo tamaño que c4 
+    */
+    height: auto;
+}
+
+@media (min-width:600px) {
+    .c1{
+        width: 25%;
+    }    
+
+    .c4{
+        width: 75%;
+    }
+
+    .c5{
+        width: 100%;
+    }
+}
+
+@media (min-width:800px){
+    /* centramos el contenido principal y ponemos limite de ancho  */
+    .container{
+        width: 800px;
+        /* margin-left: auto;
+        margin-right: auto; */
+
+        /* otra opcion es hacer  */
+        margin: 0 auto;
+    }
+
+    .c1{
+        width: 50%;
+        order: 1;
+    }    
+
+    .c4{
+        width: 100%;
+    }
+
+    .c5{
+        width: 50%;
+        order: 2;
+    }
+}

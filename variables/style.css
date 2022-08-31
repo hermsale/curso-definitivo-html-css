@@ -1,0 +1,53 @@
+/* generamos variables  */
+
+/* la raiz del html es el root, es la raiz del proyecto 
+ es por ello, que las variables las vamos a declarar adentro del root
+*/
+:root{
+    /* la forma de crear variables es con '--' y el nombre  */
+ --primary-color:#003476;
+ --secondary-color:#b4d2f7;
+ --header-size:4rem;
+ --font:1.9rem;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*
+ usamos todo el ancho de la pagina para cada bloque 
+ pero el alto lo separamos sobre un total de 100vh en tres partes header 15 - main 70 - footer 15 = 100 vh
+ esta es la estructura principal de nuestra pagina 
+*/
+
+header{
+    width: 100vw;
+    height: 15vh;
+    background-color: var(--primary-color);
+}
+
+main{
+    width: 100vw;
+    height: 70vh;
+    /* recordemos que por herencia todo lo qeu este dentro de main heredara este font-size:  */
+    font-size: var( --font);
+}
+
+h1{
+    font-size: var(--header-size);
+    color: var(--primary-color);
+}
+
+footer{
+    width: 100vw;
+    height: 15vh;
+    background-color: var(--secondary-color);
+}

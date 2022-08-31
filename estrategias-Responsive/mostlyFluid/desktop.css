@@ -1,0 +1,27 @@
+
+    /* indicamos que el ancho del container no pasara de 800px 
+    probocando que por mas que se estire la pagina, no se deformara el contenido y quedara en esa medida
+    */
+    .container{
+        width: 800px;
+
+        /* si la pagina sigue creciendo aplicara un margin de izq y der para que el contenido quede centrado  */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .c1{
+        width: 60%;
+    }
+
+    .c2{
+        width: 40%;
+    }
+
+    .c3 , .c4{
+        width:33%;
+    }
+
+    .c5{
+        width: 34%;
+    }

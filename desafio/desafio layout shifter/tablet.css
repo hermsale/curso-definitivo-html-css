@@ -1,0 +1,36 @@
+/* tablet  */
+@media (min-width:600px) {
+    .header{
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .logo{
+        width: 25%;
+        background-color: var(--primary-color);
+    }
+
+    .logo img{
+        width: auto;
+    }
+
+    .nav{
+     width: 50%;
+    }
+
+    .menu li{
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+
+    .main{
+    margin-top: 2rem;
+    margin-bottom: 4.5rem;
+    }
+
+    .footer{
+        padding: 2rem;
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,161 @@
+:root{
+    --primary-color:#2C3639;
+    --secondary-color:#3F4E4F;
+    --background-color:#DCD7C9;
+    --header-size:4rem;
+    --font:1.9rem;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+body{
+    background-image: url(./image/background-content.png);
+    height: 100vh;
+}
+
+
+/* header  */
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: var(--primary-color);
+    /* margin: 0 auto; */
+    width: 100%;
+    /* justify-content: left; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.menu{
+    /* ponemos los contenidos uno al lado del otro  */
+    display: flex;
+    /* quitamos el agregado de item  */
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.menu li{
+    padding: 0.2rem;
+    background-color: var(--background-color);
+    border: 0.1rem solid white;
+    border-radius: 1rem;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu li:hover{
+        background-color: white;
+}
+
+.logo{
+    display: flex;   
+    background-color: var(--background-color);
+}
+
+
+.logo img{
+    width: 50%;
+    height: 150px;
+
+    /* centramos la imagen  */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* cuerpo  */
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main__titulo{
+    padding: 1rem;
+    font-size: 2rem;
+    /* justify-content: center; */
+    text-align: center;
+}
+
+
+.main__descripcion{
+    font-size: 1.5rem;
+    padding: 1rem;
+    background-color:#dcd7c97f ;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.main__descripcion h3{
+    padding-top: 1rem;
+    text-align: center;
+    color: red;
+}
+
+.content__fibra--img img{
+    width: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content__fibra--img{
+    margin-left: auto;
+    margin-right: auto;
+    /* margin: 0 auto; */
+}
+
+.content__fibra{
+    display: flex;
+    flex-direction: column;
+}
+
+.content__fibra h1{
+    text-align: center;    
+    font-size: 1.8rem;
+}
+
+.content{
+    background-color: var(--secondary-color);
+    border-radius: 1rem;
+    margin: 0rem 0rem 0.5rem 0rem;
+    border: 0.1rem solid black;
+}
+
+.content__soluciones{
+    text-align: center;
+    color: var(--background-color);
+    font-size: 1.5rem;
+}
+
+.footer{
+    background-color: var(--background-color);
+    padding: 0.8rem 0rem 0.2rem 0rem;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.footer .content{
+    
+}
+
+#id-header{
+
+}

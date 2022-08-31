@@ -1,0 +1,16 @@
+.block-element{
+    background-color: green;
+    margin: 10px;
+    padding: 20px;
+}
+
+.nav{
+    background-color: bisque;
+    padding: 20px;
+    list-style: none;
+    text-align: center;
+}
+
+.nav li{
+    display: inline-block;
+}

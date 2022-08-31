@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+html{
+    font-size: 62.5%;
+
+}
+
+
+.box-parent{
+    border: 2px black dotted;
+    display: inline-block;
+}
+
+.box{
+    display: inline-block;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+#two{
+    background-color: green;
+}
+
+.box-test{
+    /* margin-top: 3rem; */
+    background-color: antiquewhite;
+    border: 2px solid black;
+    margin: 3rem auto;
+    width: 50%;
+    border-radius: 20%;
+    /* height: 5rem; */
+    min-height: 10rem;
+    /* max-height: 15px; */
+    padding: 2rem 1rem;
+    text-align:center;
+    /* display: block; */
+}
+
+.box-test__element{
+    background-color: red;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid black;
+    max-width: 20rem;
+    min-width: 10rem;
+    border-radius: 50%;
+    bottom: 8rem;
+    padding: 1rem;
+}

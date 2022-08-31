@@ -1,0 +1,4 @@
+.c2, .c3, .c4{
+    /* cambiamos el porcentaje de ancho de esos contenedores  */
+    width: 50%;
+}

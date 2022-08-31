@@ -1,0 +1,23 @@
+/* reseteamos los estilos del navegador  */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+background-color: brown !important;
+}
+
+html{
+    /* le decimos que traiga el 75% de los 12 pixeles que por defecto tiene html  */
+    font-size: 75%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    /* le indicamos que herede del padre cercano el tamaño de fuente
+    en este caso el padre mas cercano que tiene un tamaño de fuente es el html 
+    */
+    font-size: inherit;
+}

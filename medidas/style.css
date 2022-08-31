@@ -1,0 +1,47 @@
+/* este tamaño no va a variar sin importar el tamaño del contenedor 
+ya que es una medida absoluta
+ */
+/* p{
+    font-size: 18px;
+}
+ 
+main{
+    background-color: red;
+    width: 100%;
+    height: 500px;
+} */
+
+/*//////////////////// utilizando EM ///////////////// */
+
+/* aplicamos una medida estandar padre  */
+/* body{
+    font-size: 20px;
+} */
+
+/* tomara la medida padre y la multiplicara por 1em: resultando en 20px  */
+/* .text-container{
+    font-size: 1em;
+} */
+
+/* aca el em esta adentro del padre text-container que ya tiene una medida de 20px */
+/* si multiplicamos por 2em irá a 40px  */
+/* .text-container div {
+    font-size: 2em;
+    color: red;
+} */
+
+/*//////////////////// utilizando REM ///////////////// */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+p{
+    font-size: 1rem; 
+}

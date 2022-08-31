@@ -1,0 +1,39 @@
+.main-nav{
+    margin-top: 10px;
+    /* borramos los bullets de los item */
+    list-style: none; 
+    padding-left: 0px;
+    background-color: rgb(18, 148, 148);
+}
+
+.main-nav__item{
+ /* ponemos en linea los elementos  */
+ display: inline-block;
+}
+
+/* a todas las etiquetas 'a' aplicamos lo siguiente  */
+.main-nav__item a{
+color: white;
+padding: 5px;
+border-radius: 2px;
+/* ELIMINAMOS LA DECORACION DEL LINK  */
+text-decoration: none;
+}
+/*//////////////// PSEUDO CLASES ///////////////////////////// */
+/* pseudoclase hover  */
+.main-nav__item a:hover{
+color: blue;
+}
+
+/* pseudoclase active  */
+.main-nav__item a:active{
+color: red;
+}
+
+/* PSEUDO ELEMENTOS  */
+.main-nav__item a::after{
+    /* agrega un elemento luego del contenido  */
+content: " | ";
+}
+
+/* ////////////////////////////////////  */
